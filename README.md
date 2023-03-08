@@ -11,7 +11,7 @@ Clean Scan is a mobile document scanner, easily digitize your paper documents in
 
 ### <img src="https://use.fontawesome.com/releases/v5.1.0/svgs/solid/file-pdf.svg" width="22" align="left" /> &nbsp; Create PDFs from Documents
 
-Easily convet yout paper document into a digitized into a PDF file, looking sharp and clean.
+Easily convert your paper document into a digitized into a PDF file, looking sharp and clean.
 
 ### <img src="https://use.fontawesome.com/releases/v5.1.0/svgs/solid/th-list.svg" width="22" align="left" /> &nbsp; Organize like a pro
 
@@ -33,7 +33,7 @@ Automatically detects edges from the image, so you don't have to
 
 No more typing, it can automatically extract text from images
 
-<a href="https://play.google.com/store/apps/details?id=com.babanomania.pdfscanner" target="_blank">
+<a href="https://play.google.com/store/apps/details?id=com.mdic.cleanscan" target="_blank">
 <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
 
 # License

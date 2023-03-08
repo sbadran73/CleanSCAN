@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.babanomania.pdfscanner">
+    package="com.mdic.cleanscan">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -13,6 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:exported="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".SettingsActivity"
@@ -21,6 +22,7 @@
         <activity android:name=".IntroActivity" />
         <activity
             android:name=".SplashScreen"
+            android:exported="true"
             android:theme="@style/AppThemeSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,6 +46,7 @@
             android:name=".SearchableActivity"
             android:launchMode="singleTop"
             android:parentActivityName=".MainActivity"
+            android:exported="true"
             android:theme="@style/AppThemeSearch">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -59,7 +62,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.babanomania.pdfscanner.provider"
+            android:authorities="com.mdic.cleanscan.provider"
             android:exported="false"
             android:grantUriPermissions="true" />
     </application>

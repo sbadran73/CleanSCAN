@@ -9,8 +9,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.babanomania.pdfscanner"
-            android:targetClass="com.babanomania.pdfscanner.SplashScreen" />
+            android:targetPackage="com.mdic.cleanscan"
+            android:targetClass="com.mdic.cleanscan.SplashScreen" />
 
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
